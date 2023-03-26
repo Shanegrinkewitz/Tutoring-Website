@@ -1,0 +1,221 @@
+/* Body Styles */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+h1, p {
+    margin: 20px 0;
+}
+
+/* Header Styles */
+
+header {
+    position: relative;
+    height: 100px;
+    background-image: url(images/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 50px;
+    line-height: normal;
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.navbutton {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#current {
+    background-color: hsl(210, 100%, 65%);
+    color: white;
+}
+
+.navbutton:hover {
+    background-color: hsl(210, 100%, 65%);
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* Email Form Styles */
+
+.formcontainer {
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(200, 200, 200);
+    border: 2px solid black;
+}
+
+.formcontainer .title {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.emailform label {
+    display: inline-block;
+    width: 100px;
+    float: left;
+}
+
+.asterisk {
+    color: red;
+}
+
+.emailform textarea {
+    height: 100px;
+}
+
+.emailform input:focus:invalid, .emailform textarea:focus:invalid {
+    background-color: hsl(0, 100%, 95%);
+}
+
+.emailform input:focus:valid, .emailform textarea:focus:valid {
+    background-color: hsl(120, 100%, 95%);
+}
+
+.emailform .formline {
+    margin-bottom: 10px;
+}
+
+.emailform .sendline {
+    text-align: center;
+}
+
+.sendbutton {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+/* Video Styles */
+
+#video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Background Image Styles */
+
+#home-image-container {
+    height: 400px;
+    background-image: url(images/tutoring.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 80%;
+    clear: left;
+}
+
+#math-image-container {
+    height: 300px;
+    background-image: url(images/math-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 70%;
+}
+
+#science-image-container {
+    height: 300px;
+    background-image: url(images/science-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#english-image-container {
+    height: 300px;
+    background-image: url(images/english-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#social-studies-image-container {
+    height: 300px;
+    background-image: url(images/social-studies-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+/* Subject List Styles */
+
+.subject-item {
+    font-size: 150%;
+}
+
+.subject-item + .subject-item {
+    margin-top: 10px;
+}
+
+/* Table Styles */
+
+#compare-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto 20px auto;
+}
+
+#compare-table caption {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Footer Styles */
+
+footer {
+    position: relative;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: initial;
+    font-weight: normal;
+}
